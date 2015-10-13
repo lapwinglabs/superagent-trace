@@ -30,6 +30,7 @@ function trace (superagent, log) {
 
     log('--> %s', url)
     end.call(this, function (err, res) {
+      if (err) return fn(err, res)
       log('<-- %s (%s)', url, res.status)
       return fn(err, res)
     })
