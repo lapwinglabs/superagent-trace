@@ -1,0 +1,20 @@
+{
+  "name": "superagent-trace",
+  "version": "0.0.1",
+  "description": "trace requests in superagent",
+  "keywords": [],
+  "author": "Matthew Mueller <mattmuelle@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/lapwinglabs/superagent-trace.git"
+  },
+  "dependencies": {
+    "debug": "^2.2.0",
+    "ms": "^0.7.1"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*"
+  },
+  "main": "index"
+}
