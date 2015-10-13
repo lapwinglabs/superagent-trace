@@ -1,8 +1,12 @@
 {
   "name": "superagent-trace",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "trace requests in superagent",
-  "keywords": ["superagent", "trace", "profile"],
+  "keywords": [
+    "superagent",
+    "trace",
+    "profile"
+  ],
   "author": "Matthew Mueller <mattmuelle@gmail.com>",
   "repository": {
     "type": "git",
