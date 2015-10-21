@@ -1,4 +1,10 @@
 
+1.0.2 / 2015-10-21
+==================
+
+  * only show receive unless verbose: true
+  * include `x-response-time` if it's available
+
 1.0.1 / 2015-10-13
 ==================
 
