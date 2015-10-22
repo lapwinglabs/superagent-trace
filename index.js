@@ -40,7 +40,7 @@ function trace (superagent, options) {
 
     verbose && log('--> %s', url)
     end.call(this, function (err, res) {
-      var time = res.headers['x-response-time']
+      var time = res && res.headers && res.headers['x-response-time']
       if (err) {
         time
           ? log('-x- %s (%s %s)', url, res.status, time)
