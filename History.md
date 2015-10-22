@@ -1,4 +1,10 @@
 
+1.0.3 / 2015-10-22
+==================
+
+  * fix res.headers being undefined on errors (i believe)
+  * x => -x-
+
 1.0.2 / 2015-10-21
 ==================
 
