@@ -43,8 +43,8 @@ function trace (superagent, options) {
       var time = res && res.headers && res.headers['x-response-time']
       if (err) {
         time
-          ? log('-x- %s (%s %s)', url, res.status, time)
-          : log('-x- %s (%s)', url, res.status)
+          ? log('-x- %s (%s %s)', url, err.message, time)
+          : log('-x- %s (%s)', url, err.message)
         return fn(err, res)
       } else {
         time
